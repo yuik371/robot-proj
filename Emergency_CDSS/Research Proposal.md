@@ -15,7 +15,7 @@
 ![alt text](image-1.png)
 - 센서 풋프린트: RGB 비전 카메라, 마이크 어레이(Microphone Array), PIR(인체감지) 센서, IR(적외선) 낙하 감지 센서, 정전식 터치 센서.
 - 액추에이터 및 I/O: 7인치 터치 디스플레이, 다축 상지 관절 모듈(Expressive Upper Limbs), 듀얼 스피커, 상태 표시형 LED 인디케이터.
-- 기능적 경계: 환자에 대한 직접적인 물리적 처치(Mechanical Intervention) 기능은 포함하지 않음.- 기능적 경계: 환자에 대한 직접적인 물리적 처치(Mechanical Intervention) 기능은 포함하지 않음.
+- 기능적 경계: 환자에 대한 직접적인 물리적 처치(Mechanical Intervention) 기능은 포함하지 않음.
 ## 3. 핵심 기술 기여 (Core TeTechnical Contributions)
 계층형 캐스케이드 추론 구조 (Hierarchical Cascade Inference)
 컴퓨팅 자원이 제한된 엣지(Edge) 환경을 고려하여, '저전력 상시 환경 감시(Low-power Ambient Monitoring)' 모드에서 이상 징후를 1차 필터링한 후, 이벤트 발생 시에만 '고비용 신경망 확인 추론(High-compute Verification Inference)' 라이브러리를 선택적으로 활성화하는 캐스케이드 파이프라인을 구축한다.
